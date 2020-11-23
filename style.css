@@ -1,0 +1,24 @@
+@namespace xlink "http://www.w3.org/1999/xlink";
+
+/* Use Roboto font */
+@import url(https://fonts.googleapis.com/css?family=Roboto:400);
+svg text {
+  font-family: "Roboto";
+  font-size: 12px;
+  stroke-width: 0 !important;
+}
+
+/* Clusters */
+g.cluster polygon {
+  stroke: #616161;
+  stroke-width: 0.5;
+  stroke-dasharray: 4, 4;
+}
+
+g.cluster text {
+  fill: #424242;
+}
+
+svg text {
+  fill: #424242;
+}
